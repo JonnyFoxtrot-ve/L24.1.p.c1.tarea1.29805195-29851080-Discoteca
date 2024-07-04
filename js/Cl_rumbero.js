@@ -5,12 +5,12 @@ export default class Cl_rumbero {
     this.edad = edad;
     this.sexo = sexo;
   }
-  // METODOS GET Y SET para cedula
-  set cedula(cedula) {
-    this._cedula += cedula;
+  // METODOS GET Y SET para edad
+  set edad(edad) {
+    this._edad = +edad;
   }
-  get cedula() {
-    return this._cedula;
+  get edad() {
+    return this._edad;
   }
 
   //Metodo 1*
